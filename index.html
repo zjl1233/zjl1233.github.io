@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>山顶笔记 - 个人站点</title>
+  <meta name="description" content="山顶笔记是一个分享技术、生活记录与项目实践的个人站点。">
+  <meta name="keywords" content="个人博客,技术笔记,生活记录,项目实践">
+  <meta name="c5d11d8821566e21baa2e68398a01f50b6040828" content="c5d11d8821566e21baa2e68398a01f50b6040828"/>
+  <!-- ============================================= -->
+  <!-- HilltopAds 验证：把平台提供的 meta 标签粘贴到下面 -->
+  <!-- ============================================= -->
+  <!-- 在这里粘贴 HilltopAds 后台提供的 meta 验证标签 -->
+
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
+        "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+      line-height: 1.7;
+      color: #24303f;
+      background: #f6f8fb;
+    }
+
+    a {
+      color: #0b6bcb;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    header {
+      background: linear-gradient(135deg, #0f766e, #0b6bcb);
+      color: #fff;
+      padding: 48px 20px 40px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+      letter-spacing: 1px;
+    }
+
+    header p {
+      opacity: 0.92;
+      font-size: 1rem;
+    }
+
+    nav {
+      background: #fff;
+      border-bottom: 1px solid #e5eaf0;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    nav .inner {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 12px 20px;
+      display: flex;
+      gap: 18px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    nav a {
+      font-size: 0.95rem;
+      color: #334155;
+    }
+
+    main {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 28px 20px 50px;
+    }
+
+    section {
+      background: #fff;
+      border: 1px solid #e5eaf0;
+      border-radius: 14px;
+      padding: 24px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 14px rgba(15, 23, 42, 0.04);
+    }
+
+    section h2 {
+      font-size: 1.35rem;
+      margin-bottom: 14px;
+      color: #0f172a;
+      border-left: 4px solid #0f766e;
+      padding-left: 10px;
+    }
+
+    section h3 {
+      font-size: 1.05rem;
+      margin: 18px 0 8px;
+      color: #1e293b;
+    }
+
+    p {
+      margin-bottom: 12px;
+      color: #475569;
+    }
+
+    ul {
+      margin: 10px 0 10px 22px;
+      color: #475569;
+    }
+
+    li {
+      margin-bottom: 6px;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #ffffff, #eef7ff);
+    }
+
+    .hero h2 {
+      border-left-color: #0b6bcb;
+    }
+
+    .card-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 14px;
+      margin-top: 16px;
+    }
+
+    .card {
+      border: 1px solid #e2e8f0;
+      border-radius: 12px;
+      padding: 16px;
+      background: #fbfdff;
+    }
+
+    .card h3 {
+      margin-top: 0;
+      color: #0f766e;
+    }
+
+    .tag {
+      display: inline-block;
+      font-size: 0.78rem;
+      color: #0f766e;
+      background: #dff7f3;
+      border-radius: 999px;
+      padding: 3px 9px;
+      margin-right: 6px;
+      margin-bottom: 6px;
+    }
+
+    .contact-box {
+      background: #f0f9ff;
+      border: 1px dashed #7dd3fc;
+      border-radius: 12px;
+      padding: 16px;
+      margin-top: 12px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 28px 20px 40px;
+      color: #64748b;
+      font-size: 0.9rem;
+    }
+
+    footer a {
+      color: #475569;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.6rem;
+      }
+
+      section {
+        padding: 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>山顶笔记</h1>
+    <p>记录技术、生活与项目实践的个人站点</p>
+  </header>
+
+  <nav>
+    <div class="inner">
+      <a href="#about">关于本站</a>
+      <a href="#articles">笔记分类</a>
+      <a href="#contact">联系合作</a>
+      <a href="#privacy">隐私政策</a>
+    </div>
+  </nav>
+
+  <main>
+
+    <section class="hero">
+      <h2>欢迎来到山顶笔记</h2>
+      <p>
+        这里是一个个人维护的静态站点，主要用来整理学习笔记、记录项目经验，
+        也会分享一些日常生活中的观察和思考。本站内容以原创和整理为主，
+        保持简洁、实用的风格。
+      </p>
+      <p>
+        如果你对技术、互联网工具、个人建站或广告合作感兴趣，可以通过页面底部的联系方式与我交流。
+      </p>
+    </section>
+
+    <section id="about">
+      <h2>关于本站</h2>
+      <p>
+        山顶笔记创建于 2026 年，最初只是用来测试 GitHub Pages 和静态网站部署。
+        后来逐渐积累了一些技术笔记和项目记录，就决定把它做成一个长期维护的小站。
+      </p>
+      <p>
+        本站不提供任何付费服务，也没有用户注册系统。所有页面均为静态内容，
+        访问速度快，结构简单，适合作为个人知识库和作品展示页。
+      </p>
+
+      <h3>本站关注的方向</h3>
+      <ul>
+        <li>个人建站与静态网站部署</li>
+        <li>前端基础知识与工具使用</li>
+        <li>互联网产品与效率工具</li>
+        <li>项目实践记录与问题排查</li>
+      </ul>
+    </section>
+
+    <section id="articles">
+      <h2>笔记分类</h2>
+      <p>目前站点内容还在持续补充中，以下是几个计划更新的分类：</p>
+
+      <div class="card-list">
+        <div class="card">
+          <h3>建站笔记</h3>
+          <p>记录 GitHub Pages、域名解析、HTTPS 配置和静态网站部署过程。</p>
+          <span class="tag">GitHub Pages</span>
+          <span class="tag">域名</span>
+        </div>
+
+        <div class="card">
+          <h3>前端学习</h3>
+          <p>整理 HTML、CSS、JavaScript 的基础知识和常见问题。</p>
+          <span class="tag">HTML</span>
+          <span class="tag">CSS</span>
+        </div>
+
+        <div class="card">
+          <h3>工具与效率</h3>
+          <p>分享一些日常使用的软件、在线工具和自动化小技巧。</p>
+          <span class="tag">工具</span>
+          <span class="tag">效率</span>
+        </div>
+
+        <div class="card">
+          <h3>项目记录</h3>
+          <p>记录个人项目从想法到上线的过程，包括踩坑和解决方案。</p>
+          <span class="tag">项目</span>
+          <span class="tag">实践</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>联系与合作</h2>
+      <p>
+        如果你有内容建议、链接交换或广告合作意向，可以通过下面的邮箱联系我。
+        我会尽量在 1-3 个工作日内回复。
+      </p>
+
+      <div class="contact-box">
+        <p><strong>邮箱：</strong> your-email@example.com</p>
+        <p><strong>网站：</strong> https://你的用户名.github.io</p>
+        <p><strong>说明：</strong> 请把上面的邮箱和网址替换成你自己的信息。</p>
+      </div>
+    </section>
+
+    <section id="privacy">
+      <h2>隐私政策</h2>
+      <p>
+        本站是一个静态网站，不会主动收集访客的个人身份信息。
+        为了统计访问情况和展示广告，本站可能使用第三方服务，这些服务可能会使用 Cookie
+        或类似技术来记录非个人身份信息，例如浏览器类型、访问时间和页面浏览情况。
+      </p>
+      <p>
+        你可以通过浏览器设置管理或禁用 Cookie。继续访问本站，表示你了解并同意上述说明。
+        如果本站未来接入广告平台，相关广告服务商可能会根据其隐私政策处理数据。
+      </p>
+      <p>
+        如果你对隐私政策有任何疑问，可以通过“联系合作”中的邮箱与我联系。
+      </p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2026 山顶笔记 · 个人站点</p>
+    <p>由 GitHub Pages 提供静态托管</p>
+  </footer>
+
+</body>
+</html>
